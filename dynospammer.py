@@ -110,7 +110,7 @@ def random_spam(length, number_of_spam, delay, anti_block):
             block_mess +1
             count_mess2 += 1
 
-            # generating random passwords using for loop
+            
             for letter in range(length):
                 guess_letter = chars[randint(0, 36)]
                 random_string = str(guess_letter) + str(random_string)
